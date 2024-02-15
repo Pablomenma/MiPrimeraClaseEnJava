@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Tienda
+comment1.params=nombre\ cantidadProductos
+comment1.target=Tienda(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=productosVendidos
+comment3.target=void\ actualizarExistencias(int)
+comment4.params=
+comment4.target=boolean\ estadoApertura()
+comment5.params=
+comment5.target=int\ getCantidad()
+comment6.params=
+comment6.target=boolean\ getAbierto()
+numComments=7

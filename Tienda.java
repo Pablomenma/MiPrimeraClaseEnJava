@@ -1,5 +1,3 @@
-package miPrimeraClase;
-
 public class Tienda {
     private String nombreDependiente;
     private int cantidadProductosVenta;
@@ -34,6 +32,18 @@ return         abierto = false ;
     public boolean getAbierto() {
         return abierto;
     }
-
-
+//metodo que imprime el objeto.
+    public void imprimirObjeto() {
+            System.out.println("##################");
+            System.out.println("# Tienda:");
+            System.out.println("# Empleado " + nombreDependiente + "  " + cantidadProductosVenta);
+            System.out.println("# " + abierto );
+            System.out.println("##################");
 }
+//metodo que retorna el objeto.
+public String getObjeto () {
+return "el empleado" + "tiene a la venta " + cantidadProductosVenta  + "y la tienda está " + abierto ;
+}
+
+
+} //fin de la clase.

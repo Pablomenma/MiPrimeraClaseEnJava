@@ -42,7 +42,7 @@ return         abierto = false ;
 }
 //metodo que retorna el objeto.
 public String getObjeto () {
-return "el empleado" + "tiene a la venta " + cantidadProductosVenta  + "y la tienda está " + abierto ;
+return "el empleado" + nombreDependiente+ "tiene a la venta " + cantidadProductosVenta  + "y la tienda está " + abierto ;
 }
 
 
